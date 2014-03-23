@@ -427,9 +427,9 @@ body{
 	margin-top: 10px;
 }
 #wrap{
-	width: 960px;
-	margin: 0 auto;
 	background: black;
+	margin: 0 auto;
+	width: 960px;
 }
 /*Header*/
 #head {
@@ -457,8 +457,8 @@ body{
 
 #banner{
 	float: right;
-	width: 772px;
 	height: 114px;
+	width: 772px;
 }
 #ticketek{
 	float: right;
@@ -471,38 +471,38 @@ body{
 
 /* menu */
 nav{
-	clear: both;
 	background: white;
-	/*border-bottom: 1px solid black;*/
+	/* border-bottom: 1px solid black; */
 	border-radius: 10px 10px 0px 0px;
+	clear: both;
 }
 .nav{
     margin:0;
-    text-align:center;
-    /*margin-right: 40px;*/
     margin-left: 0px;
+    /* margin-right: 40px; */
+    text-align:center;
 }
 .nav li{
-    display: inline;
 	background-image: url('../img/bullet.png');
-	font-size: 1.3em;
-	text-transform: uppercase;
-	background-repeat: no-repeat;
 	background-position: center left;
+	background-repeat: no-repeat;
+    display: inline;
+	font-size: 1.3em;
 	padding-left: 15px;
+	text-transform: uppercase;
 }
 .nav li.first{
 	background: none;
 }
 
 .nav a{
-    display:inline-block;
-    padding:10px;
-    text-decoration: none;
     color: black;
+    display:inline-block;
     font-family: 'Gafata', sans-serif;
     font-weight: bold;
     letter-spacing: -2px;
+    padding:10px;
+    text-decoration: none;
   }
 .nav a:hover{
 	color: darkgrey;
@@ -511,19 +511,19 @@ nav{
 .nav #redes{
 	background-image: url('../img/rrss.gif');
 	background-repeat: no-repeat;
-	width: 128px;
 	display: inline-block;
 	float: right;
 	height: 27px;
+	/* margin-left: -50px; */
+	margin-right: 27px;
 	position: relative;
 	top: 10px;
-	/*margin-left: -50px;*/
-	margin-right: 27px;
+	width: 128px;
 }
 .nav #redes a{
-	padding: 0;
-	height: 27px;
 	float: left;
+	height: 27px;
+	padding: 0;
 }
 
 
@@ -536,32 +536,32 @@ nav{
 #afiche{}
 .aviso{
 	color: black;
-	text-align: center;
 	font-family: 'Rambla', sans-serif;
 	font-size: 2em;
 	margin-top: 20px;
+	text-align: center;
 }
 
 #tickets{
-	text-align: center;
-	width: 100%;
+	display: inline-block;
 	margin: 0 auto;
 	padding-top: 15px;
-	display: inline-block;
+	text-align: center;
+	width: 100%;
 }
 #tickets .venta{
-	display: inline-block;
 	background: rgb(255, 255, 255);
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+	height: 109px;
 	margin-left: 68px;
 	padding-top: 8px;
-	width: 228px;
-	height: 109px;
-	float: left;
 	vertical-align: middle;
-	border-radius: 10px;
+	width: 228px;
 }
 #tickets .venta:hover{
-	/*background: #5ae1f7;*/
+	/* background: #5ae1f7; */
 	background-image: url('../img/var.png');
 	background-size: 31%;
 }
@@ -572,10 +572,10 @@ nav{
 	margin-top: 10px;
 }
 #tickets #btnticketek{
-	float: left;
 	clear: both;
-	margin-top: 10px;
+	float: left;
 	margin-left: 16px;
+	margin-top: 10px;
 }
 #tickets #btnticketek:hover, #tickets #ptosventa:hover{
 	background-color:lightgray;
@@ -583,46 +583,46 @@ nav{
 }
 
 #tickets #vtatkt{
-	text-align: center;
+	float: left;
 	font-family: 'Rambla', sans-serif;
 	font-size: 2em;
-	float: left;
 	margin-left: 60px;
+	text-align: center;
 }
 
 #sinrecargo #vtasin{
 	font-family: 'Rambla', sans-serif;
 	font-size: 2em;
-	text-align: right;
 	margin-right: 87px;
+	text-align: right;
 }
 #sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya{
 	display: inline-block;
-	margin: 10px;
 	float: right;
+	margin: 10px;
 }
 #sinrecargo .direccion{
-	font-family: 'Rambla', sans-serif;
 	color: black;
+	font-family: 'Rambla', sans-serif;
 	font-size: .8em;
 }
 #sinrecargo a .direccion:hover{
 	color: grey;
 }
 #tickets #ubicaciones{
-	width: 100%;
 	display: inline-block;
 	margin-bottom: 14px;
 	margin-top: 15px;
+	width: 100%;
 }
 #tickets #ubicaciones img{
 	border: 10px solid lightgray;
 	padding: 10px;
 }
 .controls{
-	text-align: center;
 	color: white;
 	font-size: 2em;
+	text-align: center;
 }
 .controls a{
 	color: white;
@@ -636,46 +636,46 @@ nav{
 
 section#lineup .artist{
  	display: inline-block;
- 	width: 48%;
  	vertical-align: top;
+ 	width: 48%;
  }
  section#lineup .artist:hover{
  	opacity:0.8;
  }
 #media{
-	width: 100%;
 	display: inline-block;
+	width: 100%;
 }
 #video{
-	width: 100%;
+	/* background: white; */
+	/* border: 3px solid white; */
+	/* border-radius: 5px; */
+	/* display: inline-block; */
+	/* float: left; */
+	/* height: 350px; */
+	/* padding-top: 5px; */
 	text-align: center;
-	/*background: white;
-	border: 3px solid white;
-	float: left;	
-	height: 350px;
-	border-radius: 5px;
-	display: inline-block;
-	padding-top: 5px;*/
+	width: 100%;
 }
 #social{
 	float: left;
 }
 #twitter{
+	background: rgb(230, 230, 230);
+	border-radius: 5px;
+	display: inline-block;
 	height: 170px;
 	margin-left: 6px;
 	margin-right: 6px;
-	background: rgb(230, 230, 230);
 	width: 252px;
-	display: inline-block;
-	border-radius: 5px;
 }
 
 #face{
 	background: white;
-	width: 251px;
+	border-radius: 5px;
 	margin-left: 6px;
 	margin-top: 6px;
-	border-radius: 5px;
+	width: 251px;
 }
 
 .fb_iframe_widget {
@@ -683,7 +683,6 @@ section#lineup .artist{
 }
 
 #sponsors{
-	
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
@@ -692,17 +691,17 @@ section#lineup .artist{
 	border-radius: 10px;
 }
 #sponsors .cont{
-	/*max-width: 900px;
-	margin: 0 auto;*/
+	/* margin: 0 auto; */
 	margin-left: 12px;
+	/* max-width: 900px; */
 	padding-top: 15px;
 }
 #sponsors .sponsor{
+	background: #fff;
 	display: inline-block;
-	zoom: 1;
 	margin: 5px 10px;
 	padding: 5px;
-	background: #fff;
+	zoom: 1;
 }
 #sponsors .sponsor img{
 	opacity:0.7;
@@ -712,17 +711,16 @@ section#lineup .artist{
 }
 .cat{
 	display: inline-block;
-	vertical-align: top;
 	margin-right: 15px;
+	vertical-align: top;
 }
 #colaboran{
-	width: 16%;
 	margin-right: -5px;
+	width: 16%;
 }
 #colaboran .cat_title{
 	margin-left: 40px;
 }
-
 #radio{
 	width: 13%;
 }
@@ -750,8 +748,8 @@ section#lineup .artist{
 	margin-left: 17px;
 }
 .cat_title{
-	text-align: left;
 	font-family: 'Rambla', sans-serif;
+	text-align: left;
 }
 
 /* footer */
@@ -763,73 +761,73 @@ section#lineup .artist{
     text-align:center;
 }
 .bottomnav li{
-    display: inline;
-	background-image: url('../img/bullet.png');
-	background-repeat: no-repeat;
+   	background-image: url('../img/bullet.png');
 	background-position: center left;
+	background-repeat: no-repeat;
+ 	display: inline;
 	font-size: 1.2em;
-	text-transform: uppercase;
 	padding-left: 10px;
+	text-transform: uppercase;
 }
 .bottomnav li.first{
 	background: none;
 }
 
 .bottomnav a{
-    display:inline-block;
-    padding:10px;
-    text-decoration: none;
     color: black;
+    display:inline-block;
     font-family: 'Gafata', sans-serif;
     font-weight: bold;
     letter-spacing: -2px;
+    padding:10px;
+    text-decoration: none;
   }
 .bottomnav a:hover{
 	color: darkgrey;
 }
 
 #copyr{
-	font-family: 'Rambla', sans-serif;
 	color: black;
 	display: block;
+	font-family: 'Rambla', sans-serif;
 	text-align: center;
 }
 #webdesign{
-	font-family: 'Rambla', sans-serif;
-	font-size: 12px;
 	color: black;
 	display: block;
-	text-align: center;
+	font-family: 'Rambla', sans-serif;
+	font-size: 12px;
 	margin-top: 10px;
+	text-align: center;
 }
 #webdesign img{
-	vertical-align: middle;
 	opacity:0.7;
+	vertical-align: middle;
 }
 #webdesign img:hover{
 	opacity:1;
 }
 #webdesign a{
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
 }
 #webdesign a:hover{
-	text-decoration: underline;
 	color: darkgrey;
+	text-decoration: underline;
 }
 
 .videoWrapper {
-	position: relative;
+	height: 0;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
-	height: 0;
+	position: relative;
 }
 .videoWrapper iframe {
+	height: 100%;
+	left: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
 	width: 100%;
-	height: 100%;
 }
 
 /*
@@ -868,47 +866,47 @@ MEDIA QUERIES
  }
  #wrap nav ul.nav li {
  	background: none;
- 	display: block;	
+ 	display: block;
+	font-size: 2em;	
  	list-style: none;
- 	text-align: center;
  	padding: 0;
-	font-size: 2em;
+ 	text-align: center;
  }
 
  #afiche a img{
- 	max-width: 100%;
  	height: auto;
+ 	max-width: 100%;
  }
 
  
 #tickets #vtatkt{
-	float: none; 
+	float: none;
+ 	font-size: 1.3em; 
  	margin-left: 0px;
- 	font-size: 1.3em;
 }
 #tickets #vtasin{
-	text-align: center; 
+	font-size: 1.3em; 
 	margin-right: 0px;
-	font-size: 1.3em;
+	text-align: center;
 }
 
 #tickets #btnticketek, #tickets #ptosventa{
+	clear: none;
 	display: inline-block;
 	float: none;
-	clear: none;
 	margin: 0;
 	padding: 0;
 	width: 44%;
 }
 #sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya {
-	float: none; 
+	float: none;
+	vertical-align: middle; 
 	width: 25%;
-	vertical-align: middle;
 }
 
 #tickets #ubicaciones img{
-	max-width: 100%;
 	border: none;
+	max-width: 100%;
 	padding: 0;
 }
 
@@ -926,9 +924,9 @@ section#lineup .artist img{
 	width: 48%;
 }
 #colaboran .cat_title, #partners .cat_title, #radio .cat_title, #patrocinan .cat_title{
+	display: block;
 	margin-left: 0px;
 	text-align: center;
-	display: block;
 }
 #partners {
 	margin-left: 20px;
