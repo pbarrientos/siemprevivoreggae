@@ -673,6 +673,9 @@ nav{
 	margin: 10px;
 	margin-right: 42px;
 }
+#needle img{
+	margin-bottom: 10px;
+}
 #sinrecargo .direccion{
 	color: black;
 	font-family: 'Rambla', sans-serif;
@@ -850,13 +853,9 @@ section#lineup .artist p {
 }
 
 .sliderflickr{
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: black;
-}
-.sliderflickr .slide-title{
-	color: white;
-	z-index: 100;
-	margin-top: 50px;
-  	font-size: 1.5em;
 }
 
 /* footer */
@@ -998,7 +997,7 @@ MEDIA QUERIES
  	width: 50px;
  }
  #media > div.sliderflickr > div{
- 	margin-top: 20px;
+ 	width: 100%;
  }
  #media > div.sliderflickr > div > object > embed{
  	width: 100%;
@@ -1086,16 +1085,24 @@ section#lineup .artist h3{
 	width: 25%;
 	margin-left: 10px;
 }
-#colabora{
-	width: 70%;
-	border-right: none;
-}
-#colabora img{
+#auspicia img{
 	max-width: 60px;
 	height: auto;
 }
+#colabora{
+	width: 68%;
+	border-right: none;
+}
+#colabora img{
+	max-width: 55px;
+	height: auto;
+}
+#colabora img:nth-child(1){
+	max-width: 45px;
+	height: auto;
+}
 #auspicia, #colabora{
-	height: 120px;
+	height: 100px;
 }
 #patrocina, #produce{
 	width: 45%;

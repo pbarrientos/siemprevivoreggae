@@ -422,6 +422,14 @@ embed, figcaption, figure, footer, header, hgroup, keygen,
 mark, meter, nav, output, progress, rp, rt, ruby, section,
 source, summary, time, video, wbr {display:block;}
 
+
+
+@font-face {
+	font-family: "Veneer";
+	src: url(../fonts/Veneer.ttf) format("truetype");
+}
+
+
 body{
 	background: black;
 	margin-top: 10px;
@@ -508,6 +516,7 @@ body{
 	float: right;
 	height: 114px;
 	width: 772px;
+	margin-top: 16px;
 }
 #banner img{
 	border-radius: 10px;
@@ -639,13 +648,13 @@ nav{
 
 #tickets #ptosventa{
 	float: left;
-	margin-left: 20px;
+	margin-left: 26px;
 	margin-top: 10px;
 }
 #tickets #btnticketek{
 	clear: both;
 	float: left;
-	margin-left: 50px;
+	margin-left: 130px;
 	margin-top: 10px;
 }
 /*#tickets #btnticketek:hover, #tickets #ptosventa:hover{
@@ -655,24 +664,27 @@ nav{
 
 #tickets #vtatkt{
 	float: left;
-	font-family: 'Rambla', sans-serif;
+	font-family: "Veneer", sans-serif;
 	font-size: 2em;
-	margin-left: 60px;
+	margin-left: 110px;
 	text-align: center;
+}
+#tickets #btnticketek img, #tickets #ptosventa img, #tickets #sinrecargo img {
+	width: 100px;
 }
 
 #sinrecargo #vtasin{
-	font-family: 'Rambla', sans-serif;
+	font-family: "Veneer", sans-serif;
 	font-size: 2em;
-	margin-right: 87px;
+	margin-right: 180px;
 	text-align: right;
 }
-#sinrecargo #rudeboys, #sinrecargo #needle, #sinrecargo #irieconcept, #sinrecargo #kaya{
+#sinrecargo #rudeboys{
 	display: inline-block;
-	float: right;
 	margin: 10px;
-	margin-right: 42px;
+	margin-left: 60px;
 }
+
 #sinrecargo .direccion{
 	color: black;
 	font-family: 'Rambla', sans-serif;
@@ -850,13 +862,9 @@ section#lineup .artist p {
 }
 
 .sliderflickr{
+	padding-top: 30px;
+	padding-bottom: 30px;
 	background: black;
-}
-.sliderflickr .slide-title{
-	color: white;
-	z-index: 100;
-	margin-top: 50px;
-  	font-size: 1.5em;
 }
 
 /* footer */
@@ -998,7 +1006,7 @@ MEDIA QUERIES
  	width: 50px;
  }
  #media > div.sliderflickr > div{
- 	margin-top: 20px;
+ 	width: 100%;
  }
  #media > div.sliderflickr > div > object > embed{
  	width: 100%;
@@ -1086,16 +1094,24 @@ section#lineup .artist h3{
 	width: 25%;
 	margin-left: 10px;
 }
-#colabora{
-	width: 70%;
-	border-right: none;
-}
-#colabora img{
+#auspicia img{
 	max-width: 60px;
 	height: auto;
 }
+#colabora{
+	width: 68%;
+	border-right: none;
+}
+#colabora img{
+	max-width: 55px;
+	height: auto;
+}
+#colabora img:nth-child(1){
+	max-width: 45px;
+	height: auto;
+}
 #auspicia, #colabora{
-	height: 120px;
+	height: 100px;
 }
 #patrocina, #produce{
 	width: 45%;
