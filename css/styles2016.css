@@ -1042,12 +1042,13 @@ MEDIA QUERIES
 	float: none;
 	margin: 0;
 	padding: 0;
-	width: 44%;
+	width: 30%;
 }
 #sinrecargo #rudeboys, #sinrecargo #irieconcept, #sinrecargo #kaya {
 	float: none;
 	vertical-align: middle; 
 	width: 25%;
+	margin: 0;
 }
 
 #tickets #ubicaciones img{
