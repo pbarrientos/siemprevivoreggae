@@ -1,15 +1,17 @@
 
-var sliderTimeout;
-		function sliderAutoplay(){
-		    $( '#slider1' ).trigger( 'nextSlide' );
-		    console.log("autoplay");
-		    sliderTimeout = setInterval( 'sliderAutoplay', 5000 );
-		}
 
-$(document).ready(function(){ 
+
+$(document).ready(function(){
+
+	var sliderTimeout;
+	function sliderAutoplay(){
+		$( '#slider1' ).trigger( 'nextSlide' );
+		console.log("autoplay");
+		sliderTimeout = setInterval( 'sliderAutoplay', 5000 );
+	}
 
 	/*
-	 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+	 *  YT player overlay
 	*/
 	$('.fancybox-media')
 		.attr('rel', 'media-gallery')
@@ -28,11 +30,11 @@ $(document).ready(function(){
 
 		$(".fancybox-media").eq(0).trigger('click');
 
-		$('#twitter').followbox({
+		/*$('#twitter').followbox({
 		   	'user' : 'vivoreggae',
 		   	'height' : '170px',
 		   	'width' : '250px'
-		});
+		});*/
 
 
 		
